@@ -1,6 +1,6 @@
 # 红色数字展馆上位机（当前提交版）
 
-本目录是 Python / Qt 源码，包含 UART 采集、状态存储与 CSV 导出、图片格式转换、UDP 控制、HXFP 图片直传和历史测试档案。原交付记录保存于 `../docs/original-records/desktop-README.md`。
+本目录是 Python / Qt 源码，包含 UART 采集、状态存储与 CSV 导出、图片格式转换、UDP 控制、HXFP 图片直传和历史测试档案。
 
 当前 FPGA 已集成 HXFP 接收器、W5500 Socket 2 和 SDRAM 帧桥，最终位流见 `../bitstream/integrated.bit`。当前桌面软件32项测试通过；真实以太网图片端到端板测仍待验证。
 

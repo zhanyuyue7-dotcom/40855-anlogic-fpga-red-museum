@@ -13,4 +13,4 @@
 
 在根目录执行 `py -3.12 tools/sync_long_run_archive.py` 可重新生成回放抽样、分钟统计和当前测试CSV；`desktop/build_report_dataset.py` 在此提交目录也转到同一同步入口。构建EXE时 `build_windows.py` 会包含完整72小时压缩日志。源码直接运行依赖相邻的 `datasets/`，请保留整个提交目录。
 
-原始历史使用说明保存在 `../docs/original-records/desktop-REPORT_GUIDE.md`；历史测试CSV快照保存在 `../datasets/test-cases/`，不作为当前GUI数据入口。
+历史测试 CSV 快照保存在 `../datasets/test-cases/`；当前 GUI 从 `report_data/manifest.json` 加载档案。

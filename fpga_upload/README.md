@@ -12,4 +12,4 @@
 
 产物在 `../desktop/evidence/fpga-upload/`。输入向量是生成的测试输入，运行日志是本机仿真证据，不是真实以太网抓包或板测。最终位流、构建、SRAM 历史回执见根目录 README。
 
-旧版对接流程和尚未集成时的说明完整保存在 `../docs/original-records/fpga-upload-README.md`，仅供历史参考。当前真实网络整图入板验收仍待补。
+当前真实网络整图入板验收仍待补，验证范围见 `../docs/验证结果与边界.md`。
