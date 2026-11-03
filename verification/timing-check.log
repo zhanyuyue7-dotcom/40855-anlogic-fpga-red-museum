@@ -1,0 +1,1 @@
+PASS: nonnegative Setup/Hold WNS/TNS and all 48 write / 32 read SDRAM endpoints analyzed without violations. Physical verification remains separate.

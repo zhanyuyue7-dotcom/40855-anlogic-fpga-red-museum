@@ -1,0 +1,2 @@
+PASS boot BRAM pixel equivalence: complete 2x2 RGB565 enlargement
+tests/boot_equivalence_tb.v:51: $finish called at 52825000 (1ps)

@@ -1,0 +1,6 @@
+PyQt5==5.15.11
+pyserial==3.5
+Pillow==12.1.1
+PyInstaller==6.18.0
+# 2024.8.26 runs full GC for each PE close, making Qt dependency analysis very slow.
+pefile==2023.2.7

@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "evidence_type": "test_case_index",
+  "hardware_measured": false,
+  "note": "This is a 42-case test archive index, not a new hardware measurement. T01-T06 reference historical raw UART logs; T40-T42 are 8/24/72-hour plans with status=待执行 and no measured duration.",
+  "source": "D:/Downloads/FPGA/shunying-hx4s20-fpga/desktop/report_data/测试用例与证据.csv and desktop/dist/长时测试计划_未执行.csv",
+  "counts": {
+    "total_cases": 42,
+    "by_group": {
+      "稳定性": 4,
+      "事件响应": 2,
+      "图像与转场": 4,
+      "网络": 2,
+      "音画功能": 2,
+      "资源时序": 1,
+      "上位机": 3,
+      "覆盖边界": 1,
+      "网络优化": 6,
+      "音画优化": 7,
+      "资源优化": 5,
+      "可靠性设计": 2,
+      "长时扩展计划": 3
+    },
+    "by_evidence": {
+      "原始日志核验": 6,
+      "报告记载·仿真": 4,
+      "理论计算复核": 10,
+      "报告记载": 9,
+      "报告记载·构建": 3,
+      "已有软件测试": 2,
+      "用户反馈": 1,
+      "待验证": 1,
+      "报告数据计算": 2,
+      "报告设计值": 1,
+      "测试计划 / 容量估算": 3
+    },
+    "long_run_plans": 3,
+    "executed_long_run": 0
+  },
+  "files": {
+    "cases.csv": {
+      "bytes": 8332,
+      "sha256": "122eaca40aba3b994c8af168ae1ad849585eae9c17e5b5639bff619bde108e64"
+    },
+    "long-run-plans.csv": {
+      "bytes": 367,
+      "sha256": "f91518c9a16ca9b91463c9c79c94c26e2e60a5d2ef3baa7d1bf2e7d22ad4b4dc"
+    }
+  },
+  "limitations": [
+    "The 42 cases have mixed evidence types: raw logs, report records, simulations, theoretical calculations, and software tests.",
+    "Only T01-T06 are based on raw historical UART logs.",
+    "T40-T42 are unexecuted 8/24/72-hour plans; measured_elapsed_seconds, measured_faults and passed are all empty.",
+    "Do not present the plan CSV as a completed endurance test."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "label": "timing-fix-physical-actions",
+  "source": "diagnostics\\timing-fix-board-physical-actions-com38.jsonl",
+  "status_rows": 2560,
+  "event_samples": 1,
+  "counter_gap_events": 0,
+  "latency_ms": {
+    "average": 1.9022,
+    "p95": 1.9022,
+    "p99": 1.9022,
+    "maximum": 1.9022
+  },
+  "fault_status_rows": 0,
+  "maximum_recovery_count_lsb": 0,
+  "interpretation": "Exact event samples are available; counter gaps are excluded from latency statistics."
+}

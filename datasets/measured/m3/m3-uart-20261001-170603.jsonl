@@ -1,0 +1,2 @@
+{"kind": "status", "timestamp": "2026-10-01T17:06:04.397781+08:00", "scene_id": 0, "request_pending": false, "latency_valid": true, "requested_scene_id": 2, "request_count": 5, "ignored_count": 0, "commit_count": 10, "latency_cycles": 312987, "internal_commit_ms": 12.51948, "last_event_scene": 2}
+{"kind": "summary", "port": "COM39", "received": 30, "changes": 1, "duplicate_heartbeats": 29, "invalid": 0}

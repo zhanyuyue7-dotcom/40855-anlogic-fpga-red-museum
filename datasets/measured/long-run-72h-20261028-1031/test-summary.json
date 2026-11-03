@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "test_name": "72小时长稳测试",
+  "test_type": "hardware_stability_test",
+  "test_period": "2026-10-28 to 2026-10-31",
+  "status_records": 5184000,
+  "status_span_seconds": 259196.911649,
+  "fault_records": 0,
+  "json_errors": 0,
+  "image_index_changes": 57937,
+  "capture": "parsed.jsonl.gz",
+  "capture_sha256": "656e61331d25231bd18324bc976d1a214f396c75e1f07fbd7b5facb9d78bc3d5",
+  "submitted_bitstream": "bitstream/integrated.bit",
+  "submitted_bitstream_sha256": "625d0b2d7974b01f5d138eef0ae82afd547d5584011d1e3d4a1fb04416900b76"
+}

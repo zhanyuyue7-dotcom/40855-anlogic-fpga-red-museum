@@ -1,0 +1,2 @@
+PASS W5500 image UDP: ring wrap, peer routing, 40 RX and 36 TX bytes
+tests/w5500_image_udp_tb.v:78: $finish called at 10180000 (1ps)

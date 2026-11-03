@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/adobe-fonts/source-han-sans",
+  "release": "2.005R",
+  "source_path": "SubsetOTF/CN/SourceHanSansCN-Normal.otf",
+  "upstream_git_blob": "80fa1125374a81e214c6184fb2f10e5602c3c7b3",
+  "sha256": "9fc9ad5b64f086a2b342087865623923c216e346f879142a84df37c7ffd323c5",
+  "bytes": 8434332,
+  "download_api": "https://api.github.com/repos/adobe-fonts/source-han-sans/git/blobs/80fa1125374a81e214c6184fb2f10e5602c3c7b3",
+  "license": "SIL OFL 1.1; unmodified upstream font"
+}

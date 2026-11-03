@@ -1,0 +1,2 @@
+PASS: BMP waits for asynchronous writer ACK assertion and release before payload
+reference/donor-tests/bmp_write_handshake_tb.v:51: $finish called at 5540000 (1ps)

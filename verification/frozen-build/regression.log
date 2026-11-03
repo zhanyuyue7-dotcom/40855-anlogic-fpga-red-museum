@@ -1,0 +1,74 @@
+PASS LUT/BRAM glyph equivalence: all glyph/row addresses, same latency
+tests/glyph_mapping_tb.v:17: $finish called at 20486000 (1ps)
+WARNING: src/user_source/hdl_source/network/w5500_web_rom.v:11: $readmemh(src/user_source/hdl_source/network/w5500_web_response.hex): Not enough words in the file for the requested range [0:4095].
+PASS HTTP ROM: all 2071 response bytes present
+tests/web_rom_tb.v:16: $finish called at 2071000 (1ps)
+PASS W5500 image UDP: ring wrap, peer routing, 40 RX and 36 TX bytes
+tests/w5500_image_udp_tb.v:78: $finish called at 10180000 (1ps)
+PASS frame bridge: reserve, RGB layout, write drain, VS/read ACK, cancel and TF restore
+tests/hxfp_frame_bridge_tb.v:57: $finish called at 5560000 (1ps)
+PASS UI blend: 2162688 exhaustive channel/gain comparisons
+tests/ui_blend_equivalence_tb.v:15: $finish called at 0 (1ps)
+PASS: raw PCM package header and first stereo frame parsed
+reference/donor-tests/audio_pcm_raw_reader_tb.v:41: $finish called at 5265000 (1ps)
+PASS audio cycle equivalence: 16-bit/8-bit borrow, zero-length song, wraparound, 16600 PCM words
+tests/audio_count_equivalence_tb.v:61: $finish called at 680800000 (1ps)
+PASS production frame writer: all 1228800 addresses, BMP bottom-up and HXFP top-down, four banks
+tests/image_write_address_tb.v:34: $finish called at 12672650000 (1ps)
+PASS: BMP waits for asynchronous writer ACK assertion and release before payload
+reference/donor-tests/bmp_write_handshake_tb.v:51: $finish called at 5540000 (1ps)
+PASS FFT bit-exact equivalence: silence, stereo antiphase tones, DC offset
+tests/fft_equivalence_tb.v:33: $finish called at 17770450000 (1ps)
+PASS boot BRAM pixel equivalence: complete 2x2 RGB565 enlargement
+tests/boot_equivalence_tb.v:51: $finish called at 52825000 (1ps)
+WARNING: D:\Downloads\FPGA\fpga-red-museum-integration\fpga_upload\tests\hxfp_receiver_tb.v:69: $readmemh(D:\Downloads\FPGA\fpga-red-museum-integration\desktop\evidence\fpga-upload\golden.hex): Not enough words in the file for the requested range [0:700000].
+HXFP progress: 100 scenarios, 45056 pixels
+HXFP progress: 200 scenarios, 96256 pixels
+HXFP progress: 300 scenarios, 147456 pixels
+HXFP progress: 400 scenarios, 198656 pixels
+HXFP progress: 500 scenarios, 249856 pixels
+HXFP progress: 600 scenarios, 301056 pixels
+HXFP progress: 700 scenarios, 346624 pixels
+HXFP progress: 800 scenarios, 397824 pixels
+HXFP progress: 900 scenarios, 449024 pixels
+HXFP progress: 1000 scenarios, 500224 pixels
+HXFP progress: 1100 scenarios, 551424 pixels
+HXFP progress: 1200 scenarios, 602624 pixels
+PASS HXFP RTL: 1226 packet scenarios, 614912 pixels checked, 1 display commits
+D:\Downloads\FPGA\fpga-red-museum-integration\fpga_upload\tests\hxfp_receiver_tb.v:117: $finish called at 35083500000 (1ps)
+ 
+test_disconnect_preserves_last_partial_batch (test_desktop.GuiTests.test_disconnect_preserves_last_partial_batch) ... ok
+test_gui_capture_stop_export_and_photo_mode (test_desktop.GuiTests.test_gui_capture_stop_export_and_photo_mode) ... ok
+test_gui_upload_and_network_command_loopback (test_desktop.GuiTests.test_gui_upload_and_network_command_loopback) ... ok
+test_serial_open_failure_restores_controls (test_desktop.GuiTests.test_serial_open_failure_restores_controls) ... ok
+test_command_reference_vector (test_desktop.ProtocolTests.test_command_reference_vector) ... ok
+test_csv_retains_every_record_and_utf8_bom (test_desktop.ProtocolTests.test_csv_retains_every_record_and_utf8_bom) ... ok
+test_image_conversion_header_and_aspect (test_desktop.ProtocolTests.test_image_conversion_header_and_aspect) ... ok
+test_lab4_and_bounded_noise (test_desktop.ProtocolTests.test_lab4_and_bounded_noise) ... ok
+test_raw_hex (test_desktop.ProtocolTests.test_raw_hex) ... ok
+test_receiver_rejects_corruption_and_incomplete_file (test_desktop.ProtocolTests.test_receiver_rejects_corruption_and_incomplete_file) ... ok
+test_uart_all_versions_bytewise_and_resync (test_desktop.ProtocolTests.test_uart_all_versions_bytewise_and_resync) ... ok
+test_udp_end_to_end_with_lost_ack_and_final_ack (test_desktop.ProtocolTests.test_udp_end_to_end_with_lost_ack_and_final_ack) ... ok
+test_upload_timeout_and_cancel (test_desktop.ProtocolTests.test_upload_timeout_and_cancel) ... ok
+test_archive_hash_and_statistics (test_report.ReportTests.test_archive_hash_and_statistics) ... ok
+test_full_csv_preserves_source_times_and_all_rows (test_report.ReportTests.test_full_csv_preserves_source_times_and_all_rows) ... ok
+test_long_run_plans_are_budgets_not_test_results (test_report.ReportTests.test_long_run_plans_are_budgets_not_test_results) ... ok
+test_report_ui_never_connects_hardware_and_replay_works (test_report.ReportTests.test_report_ui_never_connects_hardware_and_replay_works) ... ok
+test_ack_wrong_offset_stops_upload (test_fpga_transfer.FpgaTransferTests.test_ack_wrong_offset_stops_upload) ... ok
+test_cancel_aborts_staged_image (test_fpga_transfer.FpgaTransferTests.test_cancel_aborts_staged_image) ... ok
+test_commit_never_acknowledged_is_unknown_not_success (test_fpga_transfer.FpgaTransferTests.test_commit_never_acknowledged_is_unknown_not_success) ... ok
+test_display_commit_has_independent_wait_budget (test_fpga_transfer.FpgaTransferTests.test_display_commit_has_independent_wait_budget) ... ok
+test_full_upload_lost_ack_is_idempotent (test_fpga_transfer.FpgaTransferTests.test_full_upload_lost_ack_is_idempotent) ... ok
+test_gui_probe_and_upload_device_profile (test_fpga_transfer.FpgaTransferTests.test_gui_probe_and_upload_device_profile) ... ok
+test_gui_waits_at_99_until_display_ack (test_fpga_transfer.FpgaTransferTests.test_gui_waits_at_99_until_display_ack) ... ok
+test_invalid_transfer_budgets_rejected (test_fpga_transfer.FpgaTransferTests.test_invalid_transfer_budgets_rejected) ... ok
+test_missing_interface_does_not_send_image (test_fpga_transfer.FpgaTransferTests.test_missing_interface_does_not_send_image) ... ok
+test_nonempty_begin_crc_is_rejected_before_pixels (test_fpga_transfer.FpgaTransferTests.test_nonempty_begin_crc_is_rejected_before_pixels) ... ok
+test_packet_crc_protects_header_and_body (test_fpga_transfer.FpgaTransferTests.test_packet_crc_protects_header_and_body) ... ok
+test_pixel_format_orientation (test_fpga_transfer.FpgaTransferTests.test_pixel_format_orientation) ... ok
+test_wrong_ack_session_or_crc_ignored (test_fpga_transfer.FpgaTransferTests.test_wrong_ack_session_or_crc_ignored) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 14.159s
+
+OK

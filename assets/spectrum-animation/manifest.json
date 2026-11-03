@@ -1,0 +1,21 @@
+{
+  "kind": "prerecorded_visual_animation_not_realtime_spectrum",
+  "source_name": "屏幕录制 2026-10-07 081008.mp4",
+  "source_sha256": "86727279fa25e34e7924a85a1d55713a9f7e3b2297c3229f14c88ee8f9c0bec9",
+  "bars": 64,
+  "frames": 512,
+  "fps": 15,
+  "loop_seconds": 34.13333333333333,
+  "loop_blend_frames": 12,
+  "width": 640,
+  "height": 480,
+  "max_bar_height": 240,
+  "gap_pixels": 1,
+  "source_extracted_peak": 179,
+  "height_bytes": 32768,
+  "height_sha256": "dc67eccd7fd9cf643e402d1046eb8d6ae0250e3b08da21d6835c8619210403b3",
+  "layout": "frame-major unsigned 8-bit bottom-aligned heights; RGB24 palette",
+  "normalization": "single global peak to 240; last blend_frames converge to frame zero",
+  "audio": "source audio discarded; existing FPGA PCM path unchanged",
+  "preview_background": "synthetic checkerboard, not board image"
+}

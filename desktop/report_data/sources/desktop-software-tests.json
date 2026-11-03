@@ -1,0 +1,20 @@
+{
+  "command": ".venv\\Scripts\\python.exe -m unittest test_desktop -v",
+  "tests": 13,
+  "result": "passed",
+  "runtime": "Python 3.12.10",
+  "hardware_opened": false,
+  "coverage": [
+    "M3 v1/v2/v3 checksum, fragments and resync",
+    "Lab4 line fragments",
+    "HEX receive",
+    "complete CSV with UTF-8 BOM",
+    "BMP header and aspect preservation",
+    "UDP real loopback with HELLO/DATA/FINISH ACK loss",
+    "timeout and cancel",
+    "receiver rejects malformed/incomplete files",
+    "Qt capture start/stop, export and protocol mode",
+    "serial open failure and disconnect tail persistence",
+    "Qt photo upload and FPGA command loopback"
+  ]
+}

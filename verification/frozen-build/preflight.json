@@ -1,0 +1,8 @@
+{
+  "candidate": "D:\\Downloads\\FPGA\\fpga-red-museum-integration\\build\\physical-retries\\541d-routability",
+  "bit_sha256": "625d0b2d7974b01f5d138eef0ae82afd547d5584011d1e3d4a1fb04416900b76",
+  "inputs_match": true,
+  "artifacts_match": true,
+  "backup_sha256": "9e7ad654beb708b1f22e8bd3aafed6d8c7b8f040f20f591d9259e83beac8a27f",
+  "independent_backup_blocks_match": true
+}

@@ -1,0 +1,4 @@
+﻿target_hours,rate_hz,frame_bytes,planned_frames,raw_bytes,uart_bit_rate,status,evidence_type,measured_elapsed_seconds,measured_faults,passed
+8,20,64,576000,36864000,12800,待执行,测试计划 / 容量估算,,,
+24,20,64,1728000,110592000,12800,待执行,测试计划 / 容量估算,,,
+72,20,64,5184000,331776000,12800,待执行,测试计划 / 容量估算,,,

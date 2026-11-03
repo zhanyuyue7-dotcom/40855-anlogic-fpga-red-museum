@@ -1,0 +1,18 @@
+{
+  "source_run": "D:\\Downloads\\FPGA\\fpga-red-museum-integration\\build\\runs\\541d2c577e3b4eed-20261102-133428-305205",
+  "source_place_sha256": "068aacde07d22cd7eee801775d6f74d8394b5848834c0c09e60a5f8ab33d1586",
+  "recipe_sha256": "8fe84fdbc94cec509a27c2f877c5fb29703caba899fa66bb4e858bc9d9187467",
+  "seconds": 176.92497370007914,
+  "exit_code": 0,
+  "inputs_unchanged": true,
+  "complete": true,
+  "artifacts": {
+    "final.db": "47788873adcd6facb43bfa1eb5026b5b4a251d8fab116c1d304c2f9f9131691d",
+    "integrated.bit": "625d0b2d7974b01f5d138eef0ae82afd547d5584011d1e3d4a1fb04416900b76",
+    "place.db": "068aacde07d22cd7eee801775d6f74d8394b5848834c0c09e60a5f8ab33d1586",
+    "route.area": "b670b336be90776d827df08c58570560a0a4cfe95af8e9c1d505c7f8216b2446",
+    "route.db": "49972b484f0dcfbd300dc54776f0b416e097ac1145048c19db246912aa888c74",
+    "timing_status.rpt": "0cbdc6cd61cd473086d82c3c2bdd0b0490494f892af814550334caa7b2a477fa",
+    "timing_summary.rpt": "78453fa17b57e0a1195928c2d7796c4bae9f3fdecf1b93576f12f77a0a270198"
+  }
+}

@@ -1,0 +1,2 @@
+PASS: raw PCM package header and first stereo frame parsed
+reference/donor-tests/audio_pcm_raw_reader_tb.v:41: $finish called at 5265000 (1ps)

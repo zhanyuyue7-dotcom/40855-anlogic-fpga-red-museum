@@ -1,0 +1,63 @@
+{
+  "result": "passed",
+  "checked_at": "2026-11-03T12:21:12.427796+08:00",
+  "hardware_inputs_verified": 116,
+  "td_project_references_resolved": 88,
+  "verilog_files": 90,
+  "vhdl_files": 8,
+  "bitstream_bytes": 647084,
+  "bitstream_sha256": "625d0b2d7974b01f5d138eef0ae82afd547d5584011d1e3d4a1fb04416900b76",
+  "copied_files_changed": [
+    "desktop/build_report_dataset.py",
+    "desktop/build_windows.py",
+    "desktop/DELIVERY.md",
+    "desktop/package_release.py",
+    "desktop/README.md",
+    "desktop/report_extensions.py",
+    "desktop/REPORT_GUIDE.md",
+    "desktop/report_view.py",
+    "desktop/test_report.py",
+    "desktop/report_data/manifest.json",
+    "desktop/report_data/测试用例与证据.csv",
+    "fpga_upload/PROTOCOL.md",
+    "fpga_upload/README.md",
+    "fpga_upload/tests/run_cosim.py",
+    "tools/build.ps1",
+    "tools/td_build.py",
+    "tools/test-integration.ps1"
+  ],
+  "regression": {
+    "rtl_suites": 11,
+    "hxfp_packet_scenarios": 1226,
+    "hxfp_pixel_writes": 614912,
+    "desktop_tests": 30,
+    "build_cache_tests": 2
+  },
+  "new_td_build": false,
+  "new_board_test": false,
+  "archive_created": false,
+  "desktop_archive_update": {
+    "date": "2026-11-03",
+    "tests_passed": 32,
+    "test_log": "verification/desktop-72h-sync-tests.log",
+    "replay_samples": 1441,
+    "minute_bins": 4320,
+    "current_trace_id": "final-72h"
+  },
+  "long_run_capture": {
+    "path": "datasets/measured/long-run-72h-20261028-1031/parsed.jsonl.gz",
+    "compressed_sha256": "656e61331d25231bd18324bc976d1a214f396c75e1f07fbd7b5facb9d78bc3d5",
+    "status_records": 5184000,
+    "status_span_seconds": 259196.911649,
+    "fault_records": 0,
+    "source_file_hash_verified": true,
+    "hourly_totals_reconciled": true,
+    "full_log_reanalysis_receipt": "datasets/measured/long-run-72h-20261028-1031/audit.json",
+    "test_summary": "datasets/measured/long-run-72h-20261028-1031/test-summary.json",
+    "desktop_archive_synchronized": true
+  },
+  "missing_acceptance": [
+    "independent physical Ethernet image transfer boundary-case verification"
+  ],
+  "review_limit_bytes": 200000000
+}

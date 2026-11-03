@@ -1,0 +1,2 @@
+PASS audio cycle equivalence: 16-bit/8-bit borrow, zero-length song, wraparound, 16600 PCM words
+tests/audio_count_equivalence_tb.v:61: $finish called at 680800000 (1ps)

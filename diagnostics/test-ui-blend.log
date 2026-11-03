@@ -1,0 +1,2 @@
+PASS UI blend: 2162688 exhaustive channel/gain comparisons
+tests/ui_blend_equivalence_tb.v:15: $finish called at 0 (1ps)

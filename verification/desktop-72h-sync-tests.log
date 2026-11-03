@@ -1,0 +1,37 @@
+test_disconnect_preserves_last_partial_batch (test_desktop.GuiTests.test_disconnect_preserves_last_partial_batch) ... ok
+test_gui_capture_stop_export_and_photo_mode (test_desktop.GuiTests.test_gui_capture_stop_export_and_photo_mode) ... ok
+test_gui_upload_and_network_command_loopback (test_desktop.GuiTests.test_gui_upload_and_network_command_loopback) ... ok
+test_serial_open_failure_restores_controls (test_desktop.GuiTests.test_serial_open_failure_restores_controls) ... ok
+test_command_reference_vector (test_desktop.ProtocolTests.test_command_reference_vector) ... ok
+test_csv_retains_every_record_and_utf8_bom (test_desktop.ProtocolTests.test_csv_retains_every_record_and_utf8_bom) ... ok
+test_image_conversion_header_and_aspect (test_desktop.ProtocolTests.test_image_conversion_header_and_aspect) ... ok
+test_lab4_and_bounded_noise (test_desktop.ProtocolTests.test_lab4_and_bounded_noise) ... ok
+test_raw_hex (test_desktop.ProtocolTests.test_raw_hex) ... ok
+test_receiver_rejects_corruption_and_incomplete_file (test_desktop.ProtocolTests.test_receiver_rejects_corruption_and_incomplete_file) ... ok
+test_uart_all_versions_bytewise_and_resync (test_desktop.ProtocolTests.test_uart_all_versions_bytewise_and_resync) ... ok
+test_udp_end_to_end_with_lost_ack_and_final_ack (test_desktop.ProtocolTests.test_udp_end_to_end_with_lost_ack_and_final_ack) ... ok
+test_upload_timeout_and_cancel (test_desktop.ProtocolTests.test_upload_timeout_and_cancel) ... ok
+test_ack_wrong_offset_stops_upload (test_fpga_transfer.FpgaTransferTests.test_ack_wrong_offset_stops_upload) ... ok
+test_cancel_aborts_staged_image (test_fpga_transfer.FpgaTransferTests.test_cancel_aborts_staged_image) ... ok
+test_commit_never_acknowledged_is_unknown_not_success (test_fpga_transfer.FpgaTransferTests.test_commit_never_acknowledged_is_unknown_not_success) ... ok
+test_display_commit_has_independent_wait_budget (test_fpga_transfer.FpgaTransferTests.test_display_commit_has_independent_wait_budget) ... ok
+test_full_upload_lost_ack_is_idempotent (test_fpga_transfer.FpgaTransferTests.test_full_upload_lost_ack_is_idempotent) ... ok
+test_gui_probe_and_upload_device_profile (test_fpga_transfer.FpgaTransferTests.test_gui_probe_and_upload_device_profile) ... ok
+test_gui_waits_at_99_until_display_ack (test_fpga_transfer.FpgaTransferTests.test_gui_waits_at_99_until_display_ack) ... ok
+test_invalid_transfer_budgets_rejected (test_fpga_transfer.FpgaTransferTests.test_invalid_transfer_budgets_rejected) ... ok
+test_missing_interface_does_not_send_image (test_fpga_transfer.FpgaTransferTests.test_missing_interface_does_not_send_image) ... ok
+test_nonempty_begin_crc_is_rejected_before_pixels (test_fpga_transfer.FpgaTransferTests.test_nonempty_begin_crc_is_rejected_before_pixels) ... ok
+test_packet_crc_protects_header_and_body (test_fpga_transfer.FpgaTransferTests.test_packet_crc_protects_header_and_body) ... ok
+test_pixel_format_orientation (test_fpga_transfer.FpgaTransferTests.test_pixel_format_orientation) ... ok
+test_wrong_ack_session_or_crc_ignored (test_fpga_transfer.FpgaTransferTests.test_wrong_ack_session_or_crc_ignored) ... ok
+test_72h_export_resolves_bundled_source_and_preserves_rows (test_report.ReportTests.test_72h_export_resolves_bundled_source_and_preserves_rows) ... ok
+test_archive_hash_and_statistics (test_report.ReportTests.test_archive_hash_and_statistics) ... ok
+test_current_72h_archive_matches_independent_audit (test_report.ReportTests.test_current_72h_archive_matches_independent_audit) ... ok
+test_full_csv_preserves_source_times_and_all_rows (test_report.ReportTests.test_full_csv_preserves_source_times_and_all_rows) ... ok
+test_long_run_plans_are_budgets_not_test_results (test_report.ReportTests.test_long_run_plans_are_budgets_not_test_results) ... ok
+test_report_ui_never_connects_hardware_and_replay_works (test_report.ReportTests.test_report_ui_never_connects_hardware_and_replay_works) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 14.394s
+
+OK

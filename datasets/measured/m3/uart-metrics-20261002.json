@@ -1,0 +1,52 @@
+{
+  "runs": [
+    {
+      "label": "board-capture",
+      "source": "diagnostics\\m3-uart-20261001-152024.jsonl",
+      "status_rows": 13,
+      "event_samples": 4,
+      "counter_gap_events": 0,
+      "latency_ms": {
+        "average": 12.25702,
+        "p95": 15.097275999999999,
+        "p99": 15.5114872,
+        "maximum": 15.61504
+      },
+      "fault_status_rows": 0,
+      "maximum_recovery_count_lsb": 0,
+      "interpretation": "Exact event samples are available; counter gaps are excluded from latency statistics."
+    },
+    {
+      "label": "board-capture",
+      "source": "diagnostics\\m3-uart-20261001-153752.jsonl",
+      "status_rows": 1,
+      "event_samples": 0,
+      "counter_gap_events": 0,
+      "latency_ms": {
+        "average": null,
+        "p95": null,
+        "p99": null,
+        "maximum": null
+      },
+      "fault_status_rows": 0,
+      "maximum_recovery_count_lsb": 0,
+      "interpretation": "Snapshot stream is coalesced or incomplete; do not claim a full event distribution."
+    },
+    {
+      "label": "board-capture",
+      "source": "diagnostics\\e3-uart-actions-com38-20261002.jsonl",
+      "status_rows": 3584,
+      "event_samples": 0,
+      "counter_gap_events": 0,
+      "latency_ms": {
+        "average": null,
+        "p95": null,
+        "p99": null,
+        "maximum": null
+      },
+      "fault_status_rows": 0,
+      "maximum_recovery_count_lsb": 0,
+      "interpretation": "Snapshot stream is coalesced or incomplete; do not claim a full event distribution."
+    }
+  ]
+}

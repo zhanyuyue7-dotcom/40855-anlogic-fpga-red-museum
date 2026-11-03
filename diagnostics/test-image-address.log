@@ -1,0 +1,2 @@
+PASS production frame writer: all 1228800 addresses, BMP bottom-up and HXFP top-down, four banks
+tests/image_write_address_tb.v:34: $finish called at 12672650000 (1ps)

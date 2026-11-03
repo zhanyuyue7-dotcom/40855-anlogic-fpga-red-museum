@@ -1,0 +1,2 @@
+PASS frame bridge: reserve, RGB layout, write drain, VS/read ACK, cancel and TF restore
+tests/hxfp_frame_bridge_tb.v:57: $finish called at 5560000 (1ps)

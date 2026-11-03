@@ -1,0 +1,2 @@
+PASS FFT bit-exact equivalence: silence, stereo antiphase tones, DC offset
+tests/fft_equivalence_tb.v:33: $finish called at 17770450000 (1ps)

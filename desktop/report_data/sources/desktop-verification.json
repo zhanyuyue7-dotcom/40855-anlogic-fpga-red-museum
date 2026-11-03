@@ -1,0 +1,18 @@
+{
+  "gui_startup": "passed",
+  "packaged_receiver_udp_transfer": "passed",
+  "transferred_bytes": 921654,
+  "image_sha256": "72b09dbe4a3bf6f2a38f5f18f267c00fcc105fec5b5f1d408eac1af541005e62",
+  "physical_uart_opened": false,
+  "fpga_hardware_validated": false,
+  "executables": {
+    "HX4S20Studio.exe": {
+      "bytes": 46594374,
+      "sha256": "04f6ca816bac23ac844817c780f77dd6af09f284b5c17b18a82f10c567dd1286"
+    },
+    "HX4S20Receiver.exe": {
+      "bytes": 16354081,
+      "sha256": "46f8d999d5810fb1090efd7913a6d2edfce9ad5eac388dcd89c2e68874bf70cd"
+    }
+  }
+}

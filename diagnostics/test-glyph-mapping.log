@@ -1,0 +1,2 @@
+PASS LUT/BRAM glyph equivalence: all glyph/row addresses, same latency
+tests/glyph_mapping_tb.v:17: $finish called at 20486000 (1ps)

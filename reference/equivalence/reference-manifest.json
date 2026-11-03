@@ -1,0 +1,27 @@
+{
+  "fft_ref.v": {
+    "source": "diagnostics\\fft_ref.v",
+    "sha256": "27a28824ad10c3ea6b7e810cf01bcf35a6eb6209c3b6fae6997e93db8b4903b0",
+    "role": "predecessor saved reference used by passing differential regressions"
+  },
+  "fft_ram_ref.v": {
+    "source": "diagnostics\\fft_ram_ref.v",
+    "sha256": "5549592524a813af6d52d21934c7ee7c6ea94d79fd5ae6abb23b1c918b77eb49",
+    "role": "predecessor saved reference used by passing differential regressions"
+  },
+  "spectrum_hann_rom.v": {
+    "source": "diagnostics\\spectrum_hann_rom.v",
+    "sha256": "4e3ee25626b3bf8977c15b8a1601c70054e11225c2242f354e6b2244139d997e",
+    "role": "predecessor saved reference used by passing differential regressions"
+  },
+  "spectrum_twiddle_rom.v": {
+    "source": "diagnostics\\spectrum_twiddle_rom.v",
+    "sha256": "90531c2e21856b1d81b6170c002335724c5fb7d34d4d874dec562da147d146ed",
+    "role": "predecessor saved reference used by passing differential regressions"
+  },
+  "boot_ref.v": {
+    "source": "diagnostics\\boot_ref.v",
+    "sha256": "1ee339f48e7c7792ed4e9bd8a0f2e8fab4efc98a6f5d9d32a54e83899e27b4eb",
+    "role": "predecessor saved reference used by passing differential regressions"
+  }
+}

@@ -1,0 +1,15 @@
+WARNING: D:\Downloads\FPGA\red-museum-submission-review-20261102\fpga_upload\tests\hxfp_receiver_tb.v:69: $readmemh(D:\Downloads\FPGA\red-museum-submission-review-20261102\desktop\evidence\fpga-upload\golden.hex): Not enough words in the file for the requested range [0:700000].
+HXFP progress: 100 scenarios, 45056 pixels
+HXFP progress: 200 scenarios, 96256 pixels
+HXFP progress: 300 scenarios, 147456 pixels
+HXFP progress: 400 scenarios, 198656 pixels
+HXFP progress: 500 scenarios, 249856 pixels
+HXFP progress: 600 scenarios, 301056 pixels
+HXFP progress: 700 scenarios, 346624 pixels
+HXFP progress: 800 scenarios, 397824 pixels
+HXFP progress: 900 scenarios, 449024 pixels
+HXFP progress: 1000 scenarios, 500224 pixels
+HXFP progress: 1100 scenarios, 551424 pixels
+HXFP progress: 1200 scenarios, 602624 pixels
+PASS HXFP RTL: 1226 packet scenarios, 614912 pixels checked, 1 display commits
+D:\Downloads\FPGA\red-museum-submission-review-20261102\fpga_upload\tests\hxfp_receiver_tb.v:117: $finish called at 35083500000 (1ps)

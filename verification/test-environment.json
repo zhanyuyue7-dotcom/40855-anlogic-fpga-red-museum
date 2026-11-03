@@ -1,0 +1,11 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "qt": "5.15.2",
+  "pyqt": "5.15.11",
+  "pyserial": "3.5",
+  "pillow": "12.1.1",
+  "python_executable_used": "D:\\Downloads\\FPGA\\shunying-hx4s20-fpga\\desktop\\.venv\\Scripts\\python.exe",
+  "os": "Windows-11-10.0.26200-SP0",
+  "test_scope": "review folder; existing external Python environment only",
+  "new_board_access": false
+}

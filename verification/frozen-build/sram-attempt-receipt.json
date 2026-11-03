@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-11-02T13:53:47.0062244+08:00",
+  "candidate": "D:\\Downloads\\FPGA\\fpga-red-museum-integration\\build\\physical-retries\\541d-routability\\integrated.bit",
+  "sha256": "625D0B2D7974B01F5D138EEF0AE82AFD547D5584011D1E3D4A1FB04416900B76",
+  "target": "EG4S20BG256",
+  "idcode": "0x0a014c35",
+  "detect_exit": 0,
+  "download_exit": 1,
+  "transfer_complete": false,
+  "flash_written": false,
+  "tf_written": false,
+  "sram_readback_verified": false,
+  "setup_wns_ns": 0.156,
+  "setup_tns_ns": 0,
+  "hold_wns_ns": 0.022,
+  "hold_tns_ns": 0,
+  "sta_coverage_percent": 99.97,
+  "preflight": "diagnostics/pre-download-541d.json"
+}

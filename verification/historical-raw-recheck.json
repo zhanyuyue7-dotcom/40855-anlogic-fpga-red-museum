@@ -1,0 +1,35 @@
+{
+  "result": "passed",
+  "evidence_type": "reanalysis_of_historical_measurements",
+  "source": "desktop/report_data/sources/m5-two-hour-com8-20261003.jsonl.gz",
+  "compressed_sha256": "a8cf69529ac8aeddd81ce08c13eaa72f940e8b304727972777ed118bac27d8c7",
+  "raw_sha256": "3094fda805b4dbcc11b3b04c945bd2e627e92c7a04f6655f5e108f95154b625a",
+  "raw_bytes": 140934907,
+  "status_records": 143680,
+  "summary": {
+    "kind": "summary",
+    "port": "COM8",
+    "received": 143680,
+    "changes": 143680,
+    "duplicate_heartbeats": 0,
+    "invalid": 0
+  },
+  "sample_span_seconds": 7198.516521,
+  "index_coverage": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "index_changes": 2892,
+  "fault_records": 0,
+  "audio_enabled_records": 58,
+  "audio_disabled_records": 143622,
+  "new_board_test": false,
+  "version_scope": "historical M5, October 2026; NOT final November 2 bitstream",
+  "limitations": [
+    "7198.516521 s observed span, not exactly 7200 s",
+    "UART invalid=0 does not establish zero lost packets",
+    "audio mostly disabled; not a continuous audio endurance test"
+  ]
+}

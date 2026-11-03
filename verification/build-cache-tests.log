@@ -1,0 +1,7 @@
+test_checkpoint_content_corruption_invalidates_reuse (test_td_build.CacheTests.test_checkpoint_content_corruption_invalidates_reuse) ... ok
+test_rtl_constraints_rom_tool_and_options_all_invalidate (test_td_build.CacheTests.test_rtl_constraints_rom_tool_and_options_all_invalidate) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.029s
+
+OK
